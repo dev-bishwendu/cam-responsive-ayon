@@ -1,5 +1,7 @@
 @media (max-width: 576px)
-{
+{   .head{
+    width: 90vw
+}
     .main_nav{
         display: none;
     }
