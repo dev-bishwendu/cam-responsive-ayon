@@ -85,7 +85,7 @@ hero_section style start
 .hero_section{
     width: 1500px;
     min-height: 100vh;
-    margin-top: -20px;
+    margin: 0 auto;
 }
 
 .hero_body{
