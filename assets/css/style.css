@@ -92,7 +92,6 @@ hero_section style start
     display: flex;
     align-items: center;
     gap: 50px;
-    align-items: center;
 }
 
 .hero_img{
@@ -228,6 +227,92 @@ hero_section style start
 /*======================================
 hero_section style end
 ======================================*/
+
+/*======================================
+services list
+=======================================*/
+
+.services{
+    width: 1500px;
+    min-height: 100vh;
+    margin: 40px auto;
+}
+
+
+.padding{
+    padding: 0 80px;
+}
+
+.service_intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.service_intro h2{
+    margin-top: 50px;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    width: 400px;
+    text-transform: capitalize;
+}
+
+.service_intro p{
+    font-size: 20px;
+    font-weight: 600;
+    width: 15% !important;
+    text-decoration: underline;
+}
+
+.service_intro p:hover{
+    color: #FF3E4A;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.service_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.card{
+    margin-top: 60px;
+    line-height: 40px;
+}
+
+.icon-style{
+    border: solid;
+    background-color: #000000;
+    color: #f4f4f4;
+    border-radius: 50%;
+    font-size: 30px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.card h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.card ul li{
+    list-style-type: none;
+}
+
+.card ul li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+.card ul li a:hover{
+    text-decoration: underline;
+    cursor: text;
+}
 
 /*=====================================
 animation style in hero section
