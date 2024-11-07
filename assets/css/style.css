@@ -63,7 +63,7 @@ header style start
 .fa-user{
     color: black;
     font-size: 20px;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
 .side_nav ul li:hover{
@@ -75,7 +75,7 @@ header style start
 .fa-bars{
     color: black;
     font-size: 22px;
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
 /*======================================
@@ -412,7 +412,7 @@ why choice us section start
 
 .choice{
     width: 1500px;
-    min-height: 100vh;
+    min-height: 50vh;
     margin: 40px auto;
 }
 
@@ -428,6 +428,7 @@ why choice us section start
     color: gray;
     font-size: 20px;
     padding-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .choice-flex1 h2{
@@ -471,6 +472,77 @@ why choice us section start
     line-height: 80px;
     color: #000000;
     font-size: 25px;
+}
+
+/*====================================
+why you choose us start here
+====================================*/
+
+.counter{
+    min-height: 100vh;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/thanlbline.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 150px 0px;
+}
+
+.mid-play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid_btn{
+    transform: translateY(270px) !important;
+}
+
+.numbers_count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute ;
+    bottom: 0;
+    right: 120px;
+}
+
+.one{
+    border: #f4f4f4;
+    background-color: #f4f4f4;
+    padding: 40px 70px;
+}
+
+.two{
+    border: #FF3E4A;
+    background-color: #FF3E4A;
+    padding: 40px 50px;
+}
+
+.count1{
+    font-size: 60px;
+    color: #000000;
+    font-weight: 400px;
+}
+
+.data1{
+    font-size: 20px;
+    color: gray;
+    font-weight: 200;
+}
+
+.count2{
+    font-size: 60px;
+    color: #f4f4f4;
+    font-weight: 400px;
+}
+
+.data2{
+    font-size: 20px;
+    color: #f4f4f4;
+    font-weight: 200;
 }
 
 /*=====================================
