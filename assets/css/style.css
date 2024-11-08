@@ -506,13 +506,13 @@ why you choose us start here
     justify-content: center;
     position: absolute ;
     bottom: 0;
-    right: 120px;
+    right: 100px;
 }
 
 .one{
     border: #f4f4f4;
     background-color: #f4f4f4;
-    padding: 40px 70px;
+    padding: 40px 90px;
 }
 
 .two{
@@ -544,6 +544,65 @@ why you choose us start here
     color: #f4f4f4;
     font-weight: 200;
 }
+
+/*====================================
+why you choose us end here
+====================================*/
+
+/*====================================
+wordpress value section start here
+====================================*/
+
+.value{
+    width: 1500px;
+    min-height: 80vh;
+    margin: 40px auto;
+}
+
+.wordpress{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+.dot-style{
+    font-size: 50px;
+    text-align: right;
+}
+
+.fa-circle-arrow-down{
+    font-size: 50px;
+    padding-bottom: 50px !important;
+}
+
+.value h3{
+    width: 600px;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.5 !important;
+}
+
+u{
+    text-transform: capitalize;
+    color: #FF3E4A;
+}
+
+.name{
+    font-size: 25px;
+    font-weight: 650;
+    padding-top: 80px !important;
+}
+
+.address{
+    font-size: 20px;
+    font-weight: 300;
+    color: gray;
+}
+
+/*====================================
+wordpress value section end here
+====================================*/
+
 
 /*=====================================
 animation style in hero section
