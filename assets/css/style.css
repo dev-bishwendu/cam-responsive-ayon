@@ -608,6 +608,7 @@ our blog section start here
 =====================================*/
 
 .our-blog{
+    width: 1500px;
     min-height: 100vh;
     background-color: rgb(228, 235, 238);
     padding-bottom: 150px;
